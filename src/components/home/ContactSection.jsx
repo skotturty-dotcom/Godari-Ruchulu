@@ -16,16 +16,16 @@ const ContactSection = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-2">Name</label>
-                  <input type="text" className="w-full bg-brand-bg/50 border border-dark/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors" placeholder="John Doe" />
+                  <input type="text" className="w-full bg-brand-bg/50 border border-dark/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors" />
                 </div>
                 <div>
                   <label className="block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-2">Phone</label>
-                  <input type="tel" className="w-full bg-brand-bg/50 border border-dark/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors" placeholder="+91 98765 43210" />
+                  <input type="tel" className="w-full bg-brand-bg/50 border border-dark/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors" />
                 </div>
               </div>
               <div>
                 <label className="block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-2">Message</label>
-                <textarea rows="4" className="w-full bg-brand-bg/50 border border-dark/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors resize-none" placeholder="How can we help you?"></textarea>
+                <textarea rows="4" className="w-full bg-brand-bg/50 border border-dark/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors resize-none"></textarea>
               </div>
               <button className="bg-primary hover:bg-primary/90 text-white w-full py-4 rounded-xl font-medium transition-all shadow-md hover:shadow-lg">
                 Send Message
