@@ -133,7 +133,7 @@ const Menu = () => {
                     exit={{ opacity: 0, scale: 0.9 }}
                     transition={{ duration: 0.3 }}
                     key={item.id}
-                    className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-dark/5 group relative"
+                    className="glass rounded-2xl overflow-hidden premium-shadow group relative"
                   >
                     {/* Badges */}
                     <div className="absolute top-4 left-4 z-10 flex flex-col gap-2">
@@ -149,7 +149,7 @@ const Menu = () => {
                       <img 
                         src={item.image} 
                         alt={item.name} 
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        className="image-hover-zoom"
                       />
                       {/* Hover Overlay */}
                       <div className="absolute inset-0 bg-dark/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-4">

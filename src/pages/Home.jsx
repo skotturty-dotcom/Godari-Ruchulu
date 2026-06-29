@@ -18,6 +18,11 @@ import ContactSection from '../components/home/ContactSection';
 import WeekendMenuCalendar from '../components/home/WeekendMenuCalendar';
 import SpecialFestivalMenu from '../components/home/SpecialFestivalMenu';
 import VideoGallery from '../components/home/VideoGallery';
+import PopularDishes from '../components/home/PopularDishes';
+import BestSellerCarousel from '../components/home/BestSellerCarousel';
+import FreshIngredients from '../components/home/FreshIngredients';
+import CookingProcess from '../components/home/CookingProcess';
+import MasonryGallery from '../components/home/MasonryGallery';
 
 const Home = () => {
   return (
@@ -157,15 +162,20 @@ const Home = () => {
       </section>
 
       <LiveOrderCounter />
+      <PopularDishes />
+      <BestSellerCarousel />
       <TodaySpecial />
       <WeekendMenuCalendar />
       <SpecialFestivalMenu />
       <AboutSection />
+      <FreshIngredients />
+      <CookingProcess />
       <ChefSection />
       <WhyChooseUs />
       <HygieneSection />
       <SpecialDish />
       <VideoGallery />
+      <MasonryGallery />
       <PhotoGallery />
       <DeliveryAreas />
       <Testimonials />
