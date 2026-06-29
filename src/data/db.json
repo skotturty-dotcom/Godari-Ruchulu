@@ -1,0 +1,119 @@
+{
+  "categories": ["Saturday Meals", "Sunday Breakfast", "Veg Meals", "Non Veg Meals", "Fish", "Prawns", "Chicken", "Mutton", "Rice", "Curries", "Desserts", "Snacks", "Beverages"],
+  "menu": [
+    {
+      "id": "m1",
+      "name": "Natu Kodi Pulusu",
+      "description": "Authentic country chicken curry cooked with traditional Godavari hand-pounded spices.",
+      "price": 350,
+      "category": "Chicken",
+      "type": "non-veg",
+      "isBestSeller": true,
+      "isChefSpecial": true,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": "m2",
+      "name": "Gutti Vankaya Kura",
+      "description": "Stuffed brinjal curry made with a rich, peanut-sesame and coconut base.",
+      "price": 220,
+      "category": "Curries",
+      "type": "veg",
+      "isBestSeller": true,
+      "isChefSpecial": false,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": "m3",
+      "name": "Bommidayila Pulusu",
+      "description": "A tangy, spicy Godavari fish stew cooked in an earthen pot for that authentic smoky flavour.",
+      "price": 400,
+      "category": "Fish",
+      "type": "non-veg",
+      "isBestSeller": false,
+      "isChefSpecial": true,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": "m4",
+      "name": "Pappu Chaaru Uppu Chepa",
+      "description": "Comforting lentil soup paired with crispy salted dry fish fry.",
+      "price": 300,
+      "category": "Saturday Meals",
+      "type": "non-veg",
+      "isBestSeller": true,
+      "isChefSpecial": true,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": "m5",
+      "name": "Gongura Mamsam",
+      "description": "Spicy and sour mutton curry cooked with fresh sorrel leaves.",
+      "price": 450,
+      "category": "Mutton",
+      "type": "non-veg",
+      "isBestSeller": true,
+      "isChefSpecial": false,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": "m6",
+      "name": "Godavari Pethala Iguru",
+      "description": "Crab dry roast made with authentic coastal spices.",
+      "price": 500,
+      "category": "Fish",
+      "type": "non-veg",
+      "isBestSeller": false,
+      "isChefSpecial": true,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": "m7",
+      "name": "Pootharekulu",
+      "description": "Paper-thin sweet stuffed with dry fruits, jaggery, and pure ghee.",
+      "price": 180,
+      "category": "Desserts",
+      "type": "veg",
+      "isBestSeller": true,
+      "isChefSpecial": false,
+      "rating": 5.0,
+      "image": "https://images.unsplash.com/photo-1624371414325-e207908cffec?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": "m8",
+      "name": "Sunday Special Raju Gari Kodi Pulao",
+      "description": "A fragrant, slow-cooked Godavari chicken pulao.",
+      "price": 380,
+      "category": "Sunday Breakfast",
+      "type": "non-veg",
+      "isBestSeller": true,
+      "isChefSpecial": true,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&q=80&w=800"
+    }
+  ],
+  "combos": [
+    {
+      "id": "c1",
+      "name": "Family Mega Feast",
+      "description": "Rice, Natu Kodi Pulusu, Gongura Mamsam, Pappu Chaaru, and Pootharekulu for 4 pax.",
+      "price": 1499,
+      "savings": 250,
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": "c2",
+      "name": "Seafood Lovers Combo",
+      "description": "Bommidayila Pulusu, Royyala Vepudu (Prawns Fry), Rice, and Sweet.",
+      "price": 899,
+      "savings": 120,
+      "image": "https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?auto=format&fit=crop&q=80&w=800"
+    }
+  ]
+}
